@@ -1,0 +1,6 @@
+*.log
+.env
+*.pem
+*.key
+credentials
+config/secrets.conf
