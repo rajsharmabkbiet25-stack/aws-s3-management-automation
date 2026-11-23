@@ -1,6 +1,26 @@
+# Logs
 *.log
+logs/*
+
+# Generated reports
+reports/*
+
+# Environment and credentials
 .env
 *.pem
 *.key
 credentials
 config/secrets.conf
+
+# Temporary and test files
+*.save
+downloaded*
+recovered-*
+restore-test.txt
+test.txt
+trial*.txt
+version-test.txt
+
+# Keep directory structure
+!logs/.gitkeep
+!reports/.gitkeep
